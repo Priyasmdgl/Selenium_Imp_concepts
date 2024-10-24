@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [rerun]">
+  <listeners>
+    <listener class-name="Selenium_Imp_concepts.Transformer"/>
+  </listeners>
+  <test name="testcases(failed)">
+    <classes>
+      <class name="Selenium_Imp_concepts.rerun_testcases">
+        <methods>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- Selenium_Imp_concepts.rerun_testcases -->
+    </classes>
+  </test> <!-- testcases(failed) -->
+</suite> <!-- Failed suite [rerun] -->

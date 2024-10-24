@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="rerun">
+<listeners>
+<listener class-name ="Selenium_Imp_concepts.Transformer">
+</listener>
+</listeners> 
+<test name="testcases">
+<classes>
+<class name="Selenium_Imp_concepts.rerun_testcases"></class>
+</classes>
+</test>
+</suite>
